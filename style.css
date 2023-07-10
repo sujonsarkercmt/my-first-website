@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menucontainero{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-light{
+    width: 150px;
+}
+.menus{
+    display: flex;
+    list-style: none;
+
+}
+.item{
+    margin: 5px;
+    margin-right: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.item:hover{
+    color: rgb(201, 5, 5) 
+       
+}
+.banner-img{
+    width: 300px;
+}
+
+.banner-container{
+    background-image: url("./images/background.png"),linear-gradient(45deg,#161616,#1f1e1e);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    color: white;
+    
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px ;
+
+}
+
+.btn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.about-photo{
+    width: 300px;
+}
+
+.aboout-container{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    padding-top: 8%;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 50px;
+    padding-left: 3%;
+    background-image: url("./images/background.png"),linear-gradient(45deg,#161616,#1f1e1e);
+    color: white;
+}
+
+.box{
+    width: 250px;
+    height: 280px;
+    box-shadow:5px 5px 5px gray ;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.icon{
+    width: 80px;
+    
+}
+.service-main{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("./images/background.png"),linear-gradient(45deg,#161616,#1f1e1e);
+    width: 100%;
+    height: 40vh;
+    padding-top: 50px;
+}
+.service-description{
+    text-align: justify;
+    padding-top: 5px;
+}
+
+.lower-footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    width: 100%;
+}
+.footer-left-sum{
+    height: 800px;
+    width: 400px;
+    padding-top: 12%;
+   
+}
+
+.footer-right-sum{
+    display: flex;
+    justify-content: space-around; 
+    height: 500px;
+    width: 580px;
+    padding-top: 12%;
+    padding-left: 0px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.last{
+    padding-top: 40px;
+}
+.sk{
+    width: 200px;
+    align-items: justify;
+}
+
